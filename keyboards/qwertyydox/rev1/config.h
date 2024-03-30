@@ -1,6 +1,5 @@
 /*
-Copyright 2012 Jun Wako <wakojun@gmail.com>
-Copyright 2015 Jack Humbert
+Copyright 2018 Ayden <aydenvis@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -18,10 +17,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-/* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
-#define LOCKING_SUPPORT_ENABLE
-/* Locking resynchronize hack */
-#define LOCKING_RESYNC_ENABLE
+#define MOUSEKEY_DELAY             150
+#define MOUSEKEY_INTERVAL          20
+#define MOUSEKEY_MAX_SPEED         10
+#define MOUSEKEY_TIME_TO_MAX       10
+#define MOUSEKEY_WHEEL_MAX_SPEED   8
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 40
 
 /*
  * Feature disable options
